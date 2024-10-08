@@ -1,6 +1,7 @@
 package OctJava.Task;
 
 public class Task2 {
+    //Table of 10 using the SOP statements.
     public static void main(String[] args) {
         System.out.println("10x1= 10");
         System.out.println("10x2= 20");
