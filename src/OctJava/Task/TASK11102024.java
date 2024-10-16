@@ -10,7 +10,7 @@ public class TASK11102024{
 
         // Floating-Point Literals
         float floatNumber = 35.146f;
-        double doubleNumber = 456774.678765;
+        double doubleNumber = 456774.5668765;
 
         // Boolean Literals
         boolean isActive = true;
