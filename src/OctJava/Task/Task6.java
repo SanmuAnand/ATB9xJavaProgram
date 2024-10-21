@@ -3,7 +3,7 @@ package OctJava.Task;
 public class Task6 {
     public static void main(String[] args) {
         int a= 30;
-        int b = 8;
+        int b = 9;
 
         //Airthmetic Operators
         System.out.println(a+ b);
