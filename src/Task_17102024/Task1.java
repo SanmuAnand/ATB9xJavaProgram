@@ -32,7 +32,9 @@ public class Task1 {
       else if (score >= 70 && score <= 79) {
           System.out.println("Grade D");
       }
-
+      else if (score <=0 || score >= 100) {
+          System.out.println("Nagative number case -> Grade O");// Edge case
+      }
       else {
           System.out.println("Grade F");
       }

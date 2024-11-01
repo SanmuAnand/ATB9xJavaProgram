@@ -13,11 +13,18 @@ public class Task2 {
 
         System.out.println("Enter the Side1");
         int  side3= sc.nextInt();
-
-        if (side1 == side2 && side2==side3 && side3==side1 ){
+        //Logic building
+        //step1
+        //find the inputs /outputs
+        //input |side1 and side2 and side 3->(0-100)data type - double /int
+        //outptut string |Equilateral\isosceles\triangle
+  if (side1<=0|| side2<=0 ||side3<=0){
+      System.out.println("not a valid");
+  }
+       else if (side1 == side2 && side1==side3 && side2==side3 ){
             System.out.println("this is Equilateral triangle");
         }
-        else if ((side1 == side2 )&&(side2 != side3) ||(side1 != side2)&&(side2 == side3)) {
+        else if (side1 == side2 |side1 ==side3 ||side2==side3){
             System.out.println("this is isosceles");
         }
         else  {
