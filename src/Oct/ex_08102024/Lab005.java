@@ -2,16 +2,12 @@ package Oct.ex_08102024;
 
 public class Lab005 {
     public static void main(String[] args) {
+        int age = 56;
+        //= int -> data type  whole number (not decimals)
+       // age -> variable name / identifier
+        // = -> assignment operator
+        //65 -> literal /variable_value
+
 
     }
-    byte by =127;
-  //  byte b =128; // not possiblr
-    //how they are stored is memory ?
-
-    short s = 32000;
-    int i =78;
-    long l =7976098687L;
-
-
-
 }
